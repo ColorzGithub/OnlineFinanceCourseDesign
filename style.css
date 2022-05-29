@@ -1,0 +1,515 @@
+/* Alapok kezdete */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', Tahoma;
+    color: black;
+}
+
+/* Alapok vége */
+
+
+/* Fejléc kezdete */
+h2 {
+    font-family: 'Anton' , sans-serif;
+}
+
+.header {
+    background-image: url('./images/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 100vh;
+}
+
+.header__textbox {
+    height: 20rem;
+    width: 30rem;
+    margin: 0 0 0 5rem;
+    padding-right: 5rem;
+    background-color: #f1c50f;
+    padding: 2rem;
+}
+
+.header__textbox-text {
+    font-size: 5rem;
+    margin: 1rem 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.header__textbox-paragraph {
+    margin-right: 5rem;
+    text-align: justify;
+}
+
+.btn-warnings {
+    background-color: white;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    font-size: .9rem;
+    font-weight: bold;
+    padding: .5rem 2rem;
+    color: black;
+}
+.btn-warning:hover {
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Fejléc vége */
+
+/* About Us kezdete */
+
+.about-us {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.5fr;
+    grid-template-rows: 1fr;
+    max-width: 100%;
+    margin-top: 3.5rem;
+}
+.about-us__box {
+    height: 30rem;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem
+}
+.about {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 0.5rem;
+}
+.box2 {
+    margin-top: 4rem;
+}
+
+.about-us__box2-paragraph {
+    font-weight: bold;
+    line-height: 1.75rem;
+    margin-right: 2.5rem;
+    margin-bottom: 4rem;
+}
+
+.about-us__box2-contact {
+    margin-top: 1rem;
+    padding-bottom: 5rem;
+}
+.box3 {
+    background-image: url('./images/face3.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 2rem 2rem 0 2rem;
+}
+
+/* About Us vége */
+
+/* Grid rész kezdete */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: black;
+    height: fit-content;
+    padding: 5rem 4rem;
+}
+.grids {
+    padding: 2rem;
+}
+
+.grids h2 {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-family: 'Open Sans'
+}
+
+.grids p {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.idea {
+    height: fit-content;
+}
+
+/* Grid rész vége */
+
+/* Idea rész kezdete */
+
+.top-idea {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-idea img {
+    height: 30rem;
+    margin-top: 3rem;
+}
+.second-image {
+    box-shadow: 4rem 4rem #f1c50f;
+    transform: translateY(20%);
+}
+
+.bottom-idea {
+    width: 50%;
+    margin-top: 3rem;
+    padding-left: 5rem;
+}
+
+.bottom-idea h2 {
+    font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+    letter-spacing: .25rem;
+}
+
+.bottom-idea p {
+    margin-right: 10rem;
+}
+
+/* Idea rész vége */
+
+/*Business rész kezdete */
+
+.business-strategy {
+    width: 100%;
+    background-color: #e4e5e5;
+}
+.business-content {
+    width: 60%;
+    padding: 3rem 0;
+    padding-left: 5rem;
+}
+.business-content span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.business-content h2 {
+    font-size: 3.25rem;
+    padding-top: 1.25rem;
+}
+.business-content p {
+    color: #101110;
+    line-height: 1.5;
+}
+
+.creative {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 40rem;
+    margin: 3rem;
+    gap: 2rem;
+}
+
+.boxes1 {
+    grid-row: 1 / 3;
+    background-image: url('./images/creative-thinking.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.boxes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.boxes4 {
+    background-image: url('./images/creative-thinking2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.boxes5 {
+    background-color: #f1c50f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem;
+    line-height: 1.75rem;
+    transform: translate(-30%,  -25%);
+}
+
+.collages {
+    background-image: url('./images/collage.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+.collages-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+.collages-text p, .collages-text span, .collages-text h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.collages-text p {
+    margin: 0 5rem;
+}
+
+
+
+.collages-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-image: url('./images/woman.jpg');
+    background-position: center;
+    background-size: cover;
+    margin: 5rem;
+    margin-left: 0;
+}
+
+.contact-us {
+    display: flex;
+    background-color: black;
+    gap: 2rem;
+    height: 80vh;
+}
+
+.contact-us__text, .contact-us p , .contact-us span {
+    width: 50%;
+    color: white;
+    
+}
+
+.contact-us__text span, .contact-us__text h2 {
+    
+    line-height: 3.5rem;
+   
+}
+.contact-us__text {
+padding: 5rem 0 5rem 5rem;
+}
+
+.contact-us__text p {
+    width: 100%;
+    line-height: normal;
+}
+
+
+.contact-us__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.input {
+    background-color: black;
+    padding: 1rem 2rem;
+    margin-bottom: 2rem;
+    width: 30rem;
+    border: 2px solid #1f1f1f;
+    color: white;
+}
+
+.subscribe {
+    font-weight: bold;
+    border: 0;
+    padding: 1rem 2rem;
+    background-color: #f1c50f;
+}
+.subscribe:hover {
+    background-color: inherit;
+    color: white;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: fit-content;
+    }
+
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .header__textbox {
+        margin: 0;
+        width: 20rem;
+        height: 20rem;
+        text-align: center;
+    }
+
+    .header__textbox-text {
+        font-size: 2rem;
+    }
+
+    .header__textbox-paragraph {
+        width: 100%;
+    }
+
+    .about-us {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-us__box {
+        margin: 0;
+        padding: 0;
+        height: 10rem;
+    }
+
+    .box2 {
+        text-align: center;
+        padding: 0 2rem;
+        height: 15rem;
+    }
+    .about-us__box2-paragraph {
+        margin-right: 0;
+    }
+    .box3 {
+        height: 20rem;
+        margin: 3rem;
+        border: 10px solid #f1c50f;
+    }
+
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .idea {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    .top-idea img {
+        
+        width: 10rem;
+        height: 10rem;
+        justify-content: center;
+        border: 5px solid #f1c50f;
+    }
+    .first-image {
+        display: block;
+    }
+
+    .second-image{
+        display: block;
+        box-shadow: none;
+        transform: none;
+    }
+
+    .bottom-idea {
+        width: 100%;
+        padding: 0;
+    }
+
+    .bottom-idea h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .bottom-idea p {
+        text-align: center;
+        width: 100%;
+        padding: 0 5rem;
+    }
+
+    .business-content {
+        text-align: center;
+        width: 100%;
+        padding: 3rem 5rem;
+    }
+
+    .business-content h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .creative {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .boxes2{
+        text-align: center;
+    }
+
+    .boxes5 {
+        transform: none;
+        padding: 2rem;
+        margin-top: -5rem;
+    }
+
+    .collages {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .collages-text {
+        width: 100%;
+    }
+    .collages-text h2 {
+        font-size: 3rem;
+    }
+    .collages-img {
+        width: 60%;
+        height: 60%;
+        margin: auto;
+    }
+
+    .contact-us {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: fit-content;
+    }
+
+    .contact-us__form, .contact-us__text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        text-align: center;
+        
+    }
+    .contact-us__text p {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    button {
+        margin-bottom: 5rem;
+    }
+}
